@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>ordspill demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./ordspill.umd.js"></script>
+
+<link rel="stylesheet" href="./ordspill.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: ordspill
+  }
+}).$mount('#app')
+</script>
